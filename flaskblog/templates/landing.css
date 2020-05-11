@@ -1,0 +1,43 @@
+h1{
+	color:white;
+	font-weight:700;
+	font-size:5em;
+}
+
+html{
+	height:100%;
+}
+
+h3{
+	color:white;
+	font-weight: 500;
+}
+
+hr{
+	width:300px;
+	border-top:1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,2);
+
+}
+body{
+	background:url("idea4.jpg");
+	background-size:cover;
+	background-position: center;
+	font-family: 'Roboto', sans-serif;
+}
+#head{
+	text-align: center;
+	padding-top:25%;
+	text-shadow:0px 4px 3px rgba(0,0,0,0.4),
+				0px 8px 13px rgba(0,0,0,0.1),
+				0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h1:hover, h3:hover, hr:hover{
+	color: rgb(153, 0, 255);
+	border-color: rgb(153, 0, 255);
+}
+
+button:hover{
+	background-color: rgb(153, 0, 255);
+}

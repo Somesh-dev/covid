@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+     <head>
+       <title> Verified </title>
+         <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="main.js"></script>
+        
+       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+       <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+ <!--      <link rel="stylesheet" type="text/css" href="teest3.css ">  -->
+       <style>
+.verified{
+   
+    margin-top: 60px;
+}
+
+.unverified{
+    /*background-color: red;*/
+    margin-top: 5%;
+}
+
+.txt{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:4em;
+    color: green;
+}
+
+.bodytxt{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:2em;
+    color: green;
+}
+
+.bodytxt1{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:2em;
+    color: #7f00ff;
+}
+
+.bodytxt3{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size:1.5em;
+    
+}
+
+
+
+       </style>
+       
+    </head>
+    <body>
+        <div class="container " style="text-align: center" >
+            <div class="unverified alert alert-success">                          
+                <h1 class ="txt">Verified</h1>
+                <p class="bodytxt">QR code successfully verified</p>
+            </div>
+            <br><br>
+            <div class="">
+                <h2 class="bodytxt1">Risk Level: {{ state }}</h2>
+                <h3 class="bodytxt1">Username: {{ user.username }} </h3>
+                <h3 class="bodytxt1">Email: {{ user.email }}</h3>
+            </div>
+            <br>
+            <br>
+            <div class=""> 
+               
+                <a href="#"   ><p class="bodytxt3">visit our website to make yourself safe from covid-19</p></a>
+            </div>
+            
+        </div>
+    </body>
+</html>
